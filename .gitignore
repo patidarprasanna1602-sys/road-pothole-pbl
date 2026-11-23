@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Datasets (Large files)
+data/
+data/**
+
+# Training runs & temporary checkpoints
+runs/
+runs/**
+.ultralytics/
+
+# Models (ignore other large experiments, keep primary checkpoint)
+models/*.pt
+!models/best_combined.pt
+weights/
+
+# Outputs & Comparison dumps
+outputs/video_temp/
+outputs/model_comparison/
+outputs/final_results/
+outputs/evaluation_graphs/
+outputs/*.mp4
+outputs/*.avi
+
+# OS & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
