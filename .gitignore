@@ -22,9 +22,8 @@ runs/
 runs/**
 .ultralytics/
 
-# Models (ignore other large experiments, keep primary checkpoint)
-models/*.pt
-!models/best_combined.pt
+# Models - Include all trained model checkpoints
+!models/*.pt
 weights/
 
 # Outputs & Comparison dumps

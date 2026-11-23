@@ -117,8 +117,11 @@ streamlit run app.py
 │   ├── video_processor.py                   # Video frame scanner & incident extraction
 │   └── test_detection.py                    # Terminal validation test script
 │
-├── models/
-│   └── best_combined.pt                     # Deployed YOLO11n model weights (5.5 MB)
+├── models/                                  # Trained model checkpoints
+│   ├── best_combined.pt                     # Primary deployed YOLO11n model (10 classes, mAP 46.7%)
+│   ├── best_yolo11s.pt                      # Retrained YOLO11s model (3 consolidated classes, 50 epochs)
+│   ├── best_finetuned.pt                    # 40-epoch fine-tuned checkpoint
+│   └── best.pt                              # 20-epoch baseline checkpoint
 │
 ├── reports/
 │   └── evaluation_graphs/                   # High-res publication evaluation plots (300 DPI)
