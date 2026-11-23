@@ -11,9 +11,11 @@ venv/
 ENV/
 env/
 
-# Datasets (Large files)
-data/
+# Datasets (ignore raw and processed multi-GB images, track config and README)
 data/**
+!data/
+!data/dataset.yaml
+!data/README.md
 
 # Training runs & temporary checkpoints
 runs/

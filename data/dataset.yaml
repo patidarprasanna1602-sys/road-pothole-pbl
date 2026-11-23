@@ -1,0 +1,23 @@
+# Dataset configuration for YOLO11 training
+# Combined RDD2020 + RDD2022-India Benchmark
+
+path: ../data
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  0: D00    # Longitudinal Crack
+  1: D01    # Lateral Crack
+  2: D0w0   # Wheel-path Crack
+  3: D10    # Alligator Crack
+  4: D11    # Complex Crack
+  5: D20    # Pothole (Dry Cavity)
+  6: D40    # Rutting / Surface Depression
+  7: D43    # Crosswalk Blur
+  8: D44    # Lane Line Blur
+  9: D50    # General Road Damage
