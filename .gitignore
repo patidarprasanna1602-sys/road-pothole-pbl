@@ -33,6 +33,10 @@ outputs/evaluation_graphs/
 outputs/*.mp4
 outputs/*.avi
 
+# Presentations
+*.pptx
+*.ppt
+
 # OS & IDE
 .vscode/
 .idea/

@@ -110,7 +110,6 @@ streamlit run app.py
 ├── app.py                                   # Streamlit Web Application (Image + Video tabs)
 ├── run_app.bat                              # 1-Click offline application launcher
 ├── requirements.txt                         # Python dependencies
-├── PBL_Road_Damage_Detection_Presentation.pptx # 6-Slide evaluation defense deck
 │
 ├── src/                                     # Core modular Python packages
 │   ├── model_loader.py                      # Robust checkpoint loading & environment configs
